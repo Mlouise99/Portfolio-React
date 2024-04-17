@@ -2,8 +2,8 @@ import React from "react";
 import bb from "../assets/images/Screenshot.png";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "24" },
+    { text: "Years experience", count: "02" },
+    { text: "Completed Projects", count: "20" },
     { text: "Companies Work", count: "06" },
   ];
   return (
@@ -16,11 +16,10 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
+              <h3 className="font-bold  text-blue-200"> I'm Front-End and Video Editor</h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+             
+I love the freedom that working myself gives me, I am currently in my final year pursuing a bachelor's degree in computer science at the College of Science and Technology.I have a strong interest in software development. And even I was born and raised in the Gahini Sector of the Eastern province. I now reside in kigali , Nyarugenge , due to my studies. My hobby is spending more time with friends and family, as wellas reading books. I'm really interested in technology, so I like to keep up with the latest developments. Whether it's trying out new computer languages or testing out new software, I enjoy learning and keeping my skills sharp in the fast-changing world of technology.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
@@ -35,7 +34,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Code_a_program.pdf" download>
+              <a href="./src/assets/CV.pdf" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
