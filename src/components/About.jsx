@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/images/about.png";
+import bb from "../assets/images/Screenshot.png";
 const About = () => {
   const info = [
     { text: "Years experience", count: "04" },
@@ -43,7 +43,7 @@ const About = () => {
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
             <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
               <img
-                src={aboutImg}
+                src={bb}
                 alt=""
                 className="w-full object-cover bg-cyan-600 rounded-xl"
               />

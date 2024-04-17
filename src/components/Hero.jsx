@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/images/hero.png";
+import bd from "../assets/images/Leya.png"
 const Hero = () => {
   const social_media = [
     "logo-instagram",
@@ -13,7 +13,7 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={hero} alt="" className="md:w-11/12 h-full object-cover" />
+        <img src={bd} alt="" className="md:w-96 h-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
@@ -22,10 +22,10 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span>John Alex</span>
+            My Name is <span>Louise</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            Fullstack Developer
+            Front-end Developer and Network Engineer
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
