@@ -1,4 +1,5 @@
 import React from "react";
+
 import bg from "../assets/images/baremove.png";
 const Hireme = () => {
   return (
@@ -15,12 +16,13 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+          I have expertise in installing various types of CCTV cameras. Additionally, I am proficient in designing websites using HTML, CSS, Tailwind CSS, JavaScript, and ReactJS. Furthermore, I have skills in video editing.
           </p>
-          <button className="btn-primary mt-10">Say Hello</button>
+          <a href="#contact">
+  <button className="btn-primary mt-10">Say Hello</button>
+</a>
+
+
         </div>
         <img
           src={bg}

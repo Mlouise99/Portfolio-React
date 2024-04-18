@@ -1,9 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
+import project2 from "../assets/images/project-2.png";
+import project3 from "../assets/images/project-3.png";
+import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project_person from "../assets/images/bbremove.png";
 import "swiper/css";
@@ -15,33 +15,32 @@ const Project = () => {
     {
       img: project1,
       name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
       live_link: "https://myreactflix.netlify.app",
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "My JS portfolio",
+      github_link: "https://github.com/Mlouise99/JS-Portfolio",
+      live_link: "https://mlouise99.github.io/JS-Portfolio/",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      name: "Vue Country",
+      github_link: "https://github.com/Mlouise99/Countries-APP",
+      live_link: "https://countries-app-rose.vercel.app/",
     },
     {
       img: project4,
-      name: "React Nav",
+      name: "Food-Blog ",
       github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+        "https://github.com/Mlouise99/Food-blog",
+      live_link: "https://mlouise99.github.io/Food-blog/",
     },
     {
       img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
+      name: "API Country",
+      github_link: "https://github.com/Mlouise99/Countries-APP",
+      live_link: "https://countries-app-rose.vercel.app/",
     },
   ];
   return (
