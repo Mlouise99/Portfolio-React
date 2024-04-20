@@ -26,8 +26,8 @@ const Hero = () => {
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Front-end Developer and Network Engineer
-          </h4>
-          <button className="btn-primary mt-8">Contact Me</button>
+          </h4><a href="#contact">
+          <button className="btn-primary mt-8">Contact Me</button></a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((icon) => (
               <div

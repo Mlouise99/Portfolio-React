@@ -2,9 +2,9 @@ import React from "react";
 import bb from "../assets/images/Screenshot.png";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "02" },
-    { text: "Completed Projects", count: "20" },
-    { text: "Companies Work", count: "06" },
+    { text: "Years experience", count: "01" },
+    { text: "Completed Projects", count: "10" },
+    { text: "Companies Work", count: "02" },
   ];
   return (
     <section id="about" className="py-10 text-white">
